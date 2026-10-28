@@ -1,6 +1,6 @@
 # Coil Design for Wireless Power Transfer
 
-I worked on a Wireless Power Transfer project for graduation thesis and my role was to design and build the tranmitter and receiver coils.
+I worked on a Wireless Power Transfer project for graduation thesis and my role was to design and build the transmitter and receiver coils.
 This writing covers my work from inductance calculations to a physical coil, measured about 24 uH.
 
 ## 1. Theoretical Calculations
@@ -26,8 +26,6 @@ This step helped me choosing coil dimensions and selecting the values.
 ## 2. Circuit Simulation with LTspice and PLECS
 
 I used LTspice and PLECS tools to study how the coils behaved in the WPT circuit. In these models, the transmitter and receiver coils were represented by two magnetically coupled inductors.
-
-![Ansys, PLECS, and LTspice comparison for coils of about 21 microhenries](images/02-ltspice-plecs-comparison.jpg)
 
 The comparison below is from a separate test with coils of about 21.4 uH. The main parameters were:
 
